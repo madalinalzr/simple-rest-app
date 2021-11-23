@@ -10,4 +10,9 @@ public class HelloWorld {
     public String sayHello(){
         return "Hello, Endavians!";
     }
+
+    @GetMapping("/thx")
+    public String sayThankYou(){
+        return "Thank you for attending this session!";
+    }
 }
